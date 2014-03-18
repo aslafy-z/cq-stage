@@ -5,7 +5,7 @@
 ** Login   <ravane_a@epitech.net>
 **
 ** Started on  Fri Mar 14 19:35:32 2014
-** Last update Mon Mar 17 11:23:24 2014 
+** Last update Tue Mar 18 13:51:59 2014 
 */
 
 #include "stdio.h"
@@ -21,6 +21,10 @@ int		main(int ac, char **av)
   int		i = -1;
   int		j;
   int		c = atoi(av[1]);
+  if (c >= 26)
+    c = 14;
+  else if (c <= 0)
+    c = 1;
   while (av[2][++i])
     {
       j = 0;
