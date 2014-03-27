@@ -1,11 +1,10 @@
-#!/usr/bin/python
+#!/usr/bin/env python3
 ## cesar.py for  in /home/beaune_a/perso
 ##
 ## Made by 
 ## Login   <beaune_a@epitech.net>
 ##
 ## Started on  Mon Mar 17 23:15:01 2014 
-## Last update Mon Mar 17 23:42:04 2014 
 ##
 
 import sys
@@ -46,4 +45,4 @@ if __name__ == '__main__':
                 end += letter
         print (end)
     else:
-        print("Usage : %s [+/- dec] [string]" % s)
+        print("Usage : %s [+/- dec] [string]" % sys.argv[0])
