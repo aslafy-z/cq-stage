@@ -121,12 +121,12 @@ table {
 body {
 	font-family: sans-serif;
 	
-	background-color: #0080FF; /*#323B55;*/
-	/* background-image: -webkit-linear-gradient(bottom, #323B55 0%, #424F71 100%); */
-	/* background-image: -moz-linear-gradient(bottom, #323B55 0%, #424F71 100%); */
-	/* background-image: -o-linear-gradient(bottom, #323B55 0%, #424F71 100%); */
-	/* background-image: -ms-linear-gradient(bottom, #323B55 0%, #424F71 100%); */
-	background-image: linear-gradient(bottom, #0080FF /*#323B55*/ 0%, #424F71 100%);
+	background-color: #323B55;
+	background-image: -webkit-linear-gradient(bottom, #323B55 0%, #424F71 100%);
+	background-image: -moz-linear-gradient(bottom, #323B55 0%, #424F71 100%);
+	background-image: -o-linear-gradient(bottom, #323B55 0%, #424F71 100%);
+	background-image: -ms-linear-gradient(bottom, #323B55 0%, #424F71 100%);
+	background-image: linear-gradient(bottom, #323B55 0%, #424F71 100%);
 }
 
 #slick-login {
