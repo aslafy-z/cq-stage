@@ -12,13 +12,15 @@
 </head>
 <body>
 <form id="slick-login">
-<?php if ($_GET["password"] != "LEMOTDEPASSEADMIN") { ?>
 <?php if (isset($_GET['password']) && $_GET["password"] != "LEMOTDEPASSEADMIN") { ?>
 <p style="color:red;font-weight:bold;text-align:center">
 Identifiants incorrects.<br />Connexion interrompue.
-<!-- <a href="http://tekkharibo.eu/stage_cq/CS/find_next_page/password-lost.php?utilisateur=Administrateur&clef=">Récuperer mon mot de passe</a>-->
+<!-- <a href="http://tekkharibo.eu/stage_cq/CS/find_next_page/password-lost.php?utilisateur=Administrateur">Récuperer mon mot de passe</a>-->
 </p>
-<?php } ?>
+<label for="username">nom d'utilisateur</label><input name="username" class="placeholder" value="Administrateur" type="text" readonly="readonly">
+<label for="password">mot de passe</label><input name="password" class="placeholder" placeholder="password" type="password">
+<input value="Se connecter" type="submit">
+<?php } elseif(!isset($_GET["password"])) { ?>
 <label for="username">nom d'utilisateur</label><input name="username" class="placeholder" value="Administrateur" type="text" readonly="readonly">
 <label for="password">mot de passe</label><input name="password" class="placeholder" placeholder="password" type="password">
 <input value="Se connecter" type="submit">
