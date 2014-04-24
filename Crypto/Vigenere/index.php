@@ -11,6 +11,7 @@
 <script type="text/javascript" src="placeholder.js"></script>
 </head>
 <body>
+  <div style="width:700px; height: 100%;margin:auto;">
   Bonjour à toutes et à tous!<br />
   Bienvenue dans le challenge Vigenère!<br /><br />
   Alors, le Vigenère c'est quoi? Bah c'est un système de chiffrement par substitution...<br />
@@ -21,4 +22,5 @@
   Donc si on écrit un message comme celui-ci: "abac", le message chiffré sera : "prpe".<br />
   C'est bon, vous avez compris? Peu importe, je vous donne le flag chiffré, à vous d'en faire ce que vous voulez: rw brpx wqv : xx_ijc_xpdq<br :>
   À vous de jouer!!!
+</div>
 </body></html>
