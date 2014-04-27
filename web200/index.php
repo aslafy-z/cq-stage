@@ -23,7 +23,7 @@
 <?php } else { ?>
 <p style="color:green;font-weight:bold;text-align:center">
    <br>Bravo !<br/><br>
-   Le flag pour cette épreuve était : FLAG.<br>
+   Le flag pour cette épreuve était 0e3997061a75a7c76c92b69324f8b20c<br>
    Continue comme ça !
 </p>
 <?php } ?>

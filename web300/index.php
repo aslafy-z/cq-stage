@@ -29,7 +29,7 @@ Identifiants incorrects.<br />Connexion interrompue.
 ?>
 <p style="color:green;font-weight:bold;text-align:center">
 Mot de passe valide !<br>
-Le flag est :
+Le flag est : 0be88500849bd62463a2d68240bb2cb1
 <script>
 // LEFLAG
 </script>

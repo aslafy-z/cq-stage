@@ -36,7 +36,7 @@ Bien tenté, mais ce n'est pas ça.<br />Recommence juste ici :
 } else {
 ?>
 <p style="color:green;font-weight:bold;text-align:center">
-Bravo jeune padawan, tu as réussit la premiere epreuve!<br /> Voici ton token : TOKEN
+Bravo jeune padawan, tu as réussit la premiere epreuve!<br /> Voici tonflag : 33010156aa519f134e920455d275f06c
 </p>
 <?php } ?>
 </form>
