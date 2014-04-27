@@ -24,7 +24,6 @@ def getLetterPos(char, letter, dec):
         i = char.find(letter) + dec
         if i >= 26:
             i -= 26
-        print(i)
         return char[i]
     return ''
 
