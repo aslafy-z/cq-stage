@@ -15,7 +15,7 @@
 <?php if (isset($_GET['password']) && $_GET["password"] != "LEMOTDEPASSEADMIN") { ?>
 <p style="color:red;font-weight:bold;text-align:center">
 Identifiants incorrects.<br />Connexion interrompue.
-<!-- <a href="sec.mezzer.eu/web300/password-lost.php?utilisateur=Administrateur">Récuperer mon mot de passe</a>-->
+<!-- <a href="http://stage-cq.tk/web300/password-lost.php?utilisateur=Administrateur">Récuperer mon mot de passe</a>-->
 </p>
 <label for="username">nom d'utilisateur</label><input name="username" class="placeholder" value="Administrateur" type="text" readonly="readonly">
 <label for="password">mot de passe</label><input name="password" class="placeholder" placeholder="password" type="password">
