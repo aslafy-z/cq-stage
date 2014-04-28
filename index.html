@@ -6,37 +6,87 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="">
   <meta name="author" content="">
-  <link href="../common/css/bootstrap.min.css" rel="stylesheet">
-  <link href="../common/css/style.css" rel="stylesheet">
+  <link href="common/css/bootstrap.min.css" rel="stylesheet">
+  <link href="common/css/style.css" rel="stylesheet">
 
   <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
   <!--[if lt IE 9]>
-    <script src="../common/js/html5shiv.js"></script>
+    <script src="common/js/html5shiv.js"></script>
   <![endif]-->
 
-  <link rel="shortcut icon" href="../common/img/favicon.ico">
-  
-  <script type="text/javascript" src="../common/js/jquery.min.js"></script>
-  <script type="text/javascript" src="../common/js/bootstrap.min.js"></script>
+  <link rel="shortcut icon" href="common/img/favicon.ico">
+
+  <script type="text/javascript" src="common/js/jquery.min.js"></script>
+  <script type="text/javascript" src="common/js/bootstrap.min.js"></script>
 </head>
 
 <body>
 <div class="container">
 	<div class="row clearfix">
 		<div class="col-md-12 column">
-			<div class="page-header">
-			  <a href="/" style="text-decoration:none;color:black">
-				<h1>
-				  <img src="../common/img/epitech.jpg" width="64" />
-				  Stage CQ <small>Closed</small>
-				</h1>
-			  </a>
-			</div>
-			<div class="jumbotron">
-				<h1>Challenges fermés</h1>
+		  <div class="page-header">
+		    <a href="/" style="text-decoration:none;color:black">
+		      <h1>
+			<img src="common/img/epitech.jpg" width="64" />
+			Stage CQ
+		      </h1>
+		    </a>
+		  </div>
+		  <div class="tabbable" id="tabs-428857">
+		    <ul class="nav nav-tabs">
+			    <li class="active"><a href="#panel-pres" data-toggle="tab">Présentation</a></li>
+			    <li><a href="#panel-crypto" data-toggle="tab">Cryptographie</a></li>
+			    <li><a href="#panel-stega" data-toggle="tab">Stéganographie</a></li>
+			    <li><a href="#panel-hash" data-toggle="tab">Hashing</a></li>
+			    <li><a href="#panel-web" data-toggle="tab">Web</a></li>
+			  </ul>
+			  <div class="tab-content">
+			    <div class="tab-pane active" id="panel-pres">
+			      <br />
+			      <div class="jumbotron">
+				<h1>Hello, world !</h1>
 				<p>
-				  Vous avez pétés tout nos challs, revenez demain en espérant qu'il y en ai d'autres ;)<br><br>
+				  Bienvenue au premier stage de CyberSécurité organisé par le Lab CQ d'EPITECH Toulouse<br/>
+				  Relevez les différents challenges en équipe.<br/>
+				  <br/>
+				  Have Fun!<br/>
+				  by Hayato, Mezzer, SiN, TekkHaribo
 				</p>
+			      </div>
+			    </div>
+			    <div class="tab-pane" id="panel-crypto">
+			      <p>
+				<br />
+				<a href="crypto100/" class="btn btn-primary btn-default btn-block">crypto100</a>
+				<a href="crypto200/" class="btn btn-primary btn-default btn-block">crypto200</a>
+				<a href="crypto300/" class="btn btn-primary btn-default btn-block">crypto300</a>
+			      </p>
+			    </div>
+			    <div class="tab-pane" id="panel-stega">
+			      <p>
+				<br />
+				<a href="stega100/" class="btn btn-primary btn-default btn-block">stega100</a>
+				<a href="stega200/" class="btn btn-primary btn-default btn-block">stega200</a>
+				<a href="stega300/" class="btn btn-primary btn-default btn-block">stega300</a>
+			      </p>
+			    </div>
+			    <div class="tab-pane" id="panel-hash">
+			      <p>
+				<br />
+				<a href="hash100/" class="btn btn-primary btn-default btn-block">hash100</a>
+			      </p>
+			    </div>
+			    <div class="tab-pane" id="panel-web">
+			      <p>
+				<br />
+				<a href="web100/" class="btn btn-primary btn-default btn-block">web100</a>
+				<a href="web200/" class="btn btn-primary btn-default btn-block">web200</a>
+				<a href="web300/" class="btn btn-primary btn-default btn-block">web300</a>
+				<br><br>
+				Des petits bonus sont cachés pour les plus currieux :)
+			      </p>
+			    </div>
+			  </div>
 			</div>
 		</div>
 	</div>
