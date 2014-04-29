@@ -1,6 +1,6 @@
 <?php
 function listf($patern) {
-	$g = glob("crypto*");
+	$g = glob($patern);
 	foreach($g as $f) {
 		echo "<a href='$f' class='btn btn-primary btn-default btn-block'>$f</a>";
 	}
