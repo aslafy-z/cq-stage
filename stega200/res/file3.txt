@@ -1,0 +1,6 @@
+Hey !
+C'est une bonne pratique de chercher plus que l'on te demande, tien, voila un petit flag pour te récompenser, mais saches que ca ne valide pas l'épreuve :)
+Allez, au boulo !
+
+Flag : 62e27a732626a3100818e51f571945eb
+
