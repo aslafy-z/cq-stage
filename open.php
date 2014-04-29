@@ -1,3 +1,11 @@
+<?php
+function listf($patern) {
+	$g = glob($patern);
+	foreach($g as $f) {
+		echo "<a href='$f' class='btn btn-primary btn-default btn-block'>$f</a>";
+	}
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -57,33 +65,27 @@
 			    <div class="tab-pane" id="panel-crypto">
 			      <p>
 				<br />
-				<a href="crypto100/" class="btn btn-primary btn-default btn-block">crypto100</a>
-				<a href="crypto200/" class="btn btn-primary btn-default btn-block">crypto200</a>
-				<a href="crypto300/" class="btn btn-primary btn-default btn-block">crypto300</a>
+				<?php listf("crypto*"); ?>
 			      </p>
 			    </div>
 			    <div class="tab-pane" id="panel-stega">
 			      <p>
 				<br />
-				<a href="stega100/" class="btn btn-primary btn-default btn-block">stega100</a>
-				<a href="stega200/" class="btn btn-primary btn-default btn-block">stega200</a>
-				<a href="stega300/" class="btn btn-primary btn-default btn-block">stega300</a>
+				<?php listf("stega*"); ?>
 			      </p>
 			    </div>
 			    <div class="tab-pane" id="panel-hash">
 			      <p>
 				<br />
-				<a href="hash100/" class="btn btn-primary btn-default btn-block">hash100</a>
+				<?php listf("hash*"); ?>
 			      </p>
 			    </div>
 			    <div class="tab-pane" id="panel-web">
 			      <p>
 				<br />
-				<a href="web100/" class="btn btn-primary btn-default btn-block">web100</a>
-				<a href="web200/" class="btn btn-primary btn-default btn-block">web200</a>
-				<a href="web300/" class="btn btn-primary btn-default btn-block">web300</a>
+				<?php listf("web*"); ?>
 				<br><br>
-				Des petits bonus sont cachés pour les plus currieux :)
+				Des petits bonus sont cachés pour les plus curieux :)
 			      </p>
 			    </div>
 			  </div>
