@@ -72,7 +72,7 @@ function listf($patern) {
 			    <div class="tab-pane" id="panel-social">
 			      <p>
 				<br />
-				<?php listf("social700"); ?>
+				<?php listf("social*"); ?>
 			      </p>
 			    </div>
 			    <div class="tab-pane" id="panel-stega">
