@@ -47,6 +47,7 @@ function listf($patern) {
 			    <li><a href="#panel-stega" data-toggle="tab">Stéganographie</a></li>
 			    <li><a href="#panel-hash" data-toggle="tab">Hashing</a></li>
 			    <li><a href="#panel-web" data-toggle="tab">Web</a></li>
+			    <li><a href="#panel-social" data-toggle="tab">Social Engineering</a></li>
 			  </ul>
 			  <div class="tab-content">
 			    <div class="tab-pane active" id="panel-pres">
@@ -66,6 +67,12 @@ function listf($patern) {
 			      <p>
 				<br />
 				<?php listf("crypto*"); ?>
+			      </p>
+			    </div>
+			    <div class="tab-pane" id="panel-social">
+			      <p>
+				<br />
+				<?php listf("social*"); ?>
 			      </p>
 			    </div>
 			    <div class="tab-pane" id="panel-stega">
