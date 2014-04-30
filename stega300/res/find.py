@@ -5,11 +5,10 @@
 ## Login   <ravane_a@epitech.net>
 ##
 ## Started on  Mon Feb 24 22:29:31 2014 
-## Last update Sat Mar 22 11:24:44 2014 
 ##
 
 x = []
-truc = open("level2")
+truc = open("stega300.txt")
 for line in truc:
     if line[len(line)-2] == ' ':
         x.append(1)
