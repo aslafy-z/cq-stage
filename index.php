@@ -49,6 +49,8 @@ function listf($patern) {
 			    <li><a href="#panel-web" data-toggle="tab">Web</a></li>
 			    <li><a href="#panel-social" data-toggle="tab">Social Engineering</a></li>
 			    <li><a href="#panel-net" data-toggle="tab">Networking</a></li>
+			    <li><a href="#panel-suprem" data-toggle="tab">Suprem</a></li>
+			    <li><a href="#panel-freeflag" data-toggle="tab">FreeFlag</a></li>
 			  </ul>
 			  <div class="tab-content">
 			    <div class="tab-pane active" id="panel-pres">
@@ -68,6 +70,18 @@ function listf($patern) {
 			      <p>
 				<br />
 				<?php listf("crypto*"); ?>
+			      </p>
+			    </div>
+			    <div class="tab-pane" id="panel-suprem">
+			      <p>
+				<br />
+				<?php listf("suprem*"); ?>
+			      </p>
+			    </div>
+			    <div class="tab-pane" id="panel-freeflag">
+			      <p>
+				<br />
+				<?php listf("freeflag"); ?>
 			      </p>
 			    </div>
 			    <div class="tab-pane" id="panel-social">
@@ -92,7 +106,7 @@ function listf($patern) {
 			      <p>
 				<br />
 				<?php listf("web*"); ?>
-				<br><br>
+				<br></br>
 				Des petits bonus sont cachés pour les plus curieux :)
 			      </p>
 			    </div>
